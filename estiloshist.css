@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    background-color: #11141A;
+}
+
+header{
+    padding: 10px 0;
+    backdrop-filter: blur(5px);
+    display: flex;
+}
+
+.logo img{
+    float: right;
+    margin-left: 40px;
+    width: 120px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    border-color: white;
+    margin-top: 5px;
+}
+.dropdown .menu{
+  padding: 10px 20px;
+}
+.idioma{
+    margin-left: 300px;
+    position: relative;
+    display: inline-block;
+    border-color: white;
+    margin-top: 5px;
+}
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: transparent;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    text-align: center;
+  }
+  .dropdown-content a{
+    text-decoration: none;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .idioma:hover .dropdown-content {
+    display: block;
+  }
+  .menu img{
+    width: 18px;
+    vertical-align: middle;
+    float: right;
+    margin-left: 10px;
+  }
+  .menu{
+    border:solid 1px;
+    padding: 10px;
+    border-radius: 60px;
+    font-size: 16px;
+    margin-left: 50px;
+  }
+  .menu .idi{
+    float: left;
+    margin-top: 6px;
+    margin-right: 5px;
+  }
+  .menu .ido{
+    float: right;
+    margin-top: 3px;
+    margin-left: 5px;
+  }
+  .menu .men{
+    float: right;
+    margin-top: 2px;
+    margin-left: 2px;
+  }
+  .cenot{
+    margin-left: 190px;
+    float: left;
+    margin-top: 15px;
+  }
+
+  .cenot a{
+    float: left;
+    margin-left: 30px;
+    text-decoration: none;
+  }
+  .cenot a:hover{
+    color: #da3f3a;
+  }
+  .acceder{
+    margin-top: 15px;
+  }
+  .acceder a{
+    text-decoration: none;
+    border:solid 1px;
+    padding: 10px 20px;
+    border-radius: 60px;
+    font-size: 16px;
+    margin-left: 10px;
+    background-color: #6F6D54;
+    border-color: #6F6D54;
+  }
+  .acceder a:hover{
+    background-color: #494839;
+    border-color: #494839;
+  }
